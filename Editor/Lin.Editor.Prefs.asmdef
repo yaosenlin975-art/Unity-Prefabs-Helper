@@ -1,0 +1,17 @@
+{
+  "name": "Lin.Editor.Prefs",
+  "rootNamespace": "Lin.Runtime.Helper.Editor",
+  "references": [
+    "Lin.Runtime.Prefs",
+    "Unity.Newtonsoft.Json"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
