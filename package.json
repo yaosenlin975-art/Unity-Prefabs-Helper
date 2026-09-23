@@ -1,9 +1,12 @@
 {
   "name": "com.lin.runtime-prefs-helper",
   "version": "1.0.0",
-  "displayName": "Lin Runtime Prefs Helper",
+  "displayName": "Player Prefs Helper",
   "description": "Standalone persistent preferences archive helper for Unity.",
   "unity": "2021.3",
+  "author": {
+    "name": "Lin"
+  },
   "dependencies": {
     "com.unity.nuget.newtonsoft-json": "3.0.2"
   }

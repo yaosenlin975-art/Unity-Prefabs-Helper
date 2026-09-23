@@ -7,7 +7,6 @@
 │　ClassName: PrefsHelperEditorWindow
 └──────────────┘
 */
-using Lin.Runtime.Helper;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -22,7 +21,7 @@ namespace Lin.Runtime.Helper.Editor
 {
     public sealed class PrefsHelperEditorWindow : EditorWindow
     {
-        private const string MENU_PATH = "Lin/Prefs Helper/持久化数据管理器";
+        private const string MENU_PATH = "Lin/Prefs Helper - 持久化数据管理器";
 
         private readonly Dictionary<string, int> nodeIds = new Dictionary<string, int>(StringComparer.Ordinal);
         private readonly List<ArchiveRecord> archives = new List<ArchiveRecord>();
